@@ -1,0 +1,96 @@
+baseURL = "https://examplesite.com"
+languageCode = "en-us"
+title = "俊樹の相冊"
+publishDir="public"
+
+theme = "rhythm"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+
+    # Meta
+    description = "Phugo - Photo Gallery on Hugo"
+    author = "安田俊樹"
+    keywords = "phugo, hugo, photogallery, photoblog, hugo theme"
+    
+    # Headerbar links
+    # Do not put here too many links,
+    # it will break mobile appearance
+
+    [[params.header.links]]
+    name = "About"
+    url = "#footer"
+    icon = "fa-info-circle"    
+    
+    # Footer panel
+    
+    [params.footer.paragraph]
+    headline = "俊樹のAlbum"
+    text = "The idea of this web album could be traced back into 2019 when the first time I first steped into the door of the conceptual idea of a static \"HUGO\" blog, in which it's a static blog CMS builder hostable on GitHub & deployable on Vercel, completely free, then I wondered if a blog is possible why not a web album for image showcasing? After this harsg 3 years of finding, ultimately a theme named \"phugo\" came across my eye sight on GitHub, but it didn't perform well as I expected to be, with some slight modification by myself a new theme called **rythm** is ultimately open sourced out on GitHub for my personal gallery/album usages. This gallery mostly contains my self collected anime illustrations, life photos and much more... Happy viewing :), good day. <br />Tech stack: **Aliyun cloud OSS+Picgo+GitHub pages+Vercel** (OSS located in HongKong for bumping viewing speed for mainland viewers also stabalize speed outer mainland.)"
+    
+    [params.footer.social]
+    headline = "Follow me"
+
+    #[[params.footer.social.links]]
+    #label = "Twitter"
+    #url = "#"
+    #icon = "fa-twitter"
+
+    #[[params.footer.social.links]]
+    #label = "Facebook"
+    #url = "#"
+    #icon = "fa-facebook"
+
+    #[[params.footer.social.links]]
+    #label = "Instagram"
+    #url = "#"
+    #icon = "fa-instagram"
+
+    [[params.footer.social.links]]
+    label = "Github"
+    url = "https://github.com/andatoshiki/"
+    icon = "fa-github"
+
+    [[params.footer.social.links]]
+    label = "telegram"
+    url="https://t.me/andatoshiki"
+    icon = "fa-plane"
+
+    [[params.footer.social.links]]
+    label = "email"
+    url="mailto:andatoshiki@outlook.com"
+    icon = "fa-envelope-square"
+
+    #[[params.footer.social.links]]
+    #label = "Dribbble"
+    #url = "#"
+    #icon = "fa-dribbble"
+
+    # [[params.footer.social.links]]
+    # label = "YouTube"
+    # url = "youtube.com"
+    # icon = "fa-youtube"
+    
+    # Contact form
+    [params.footer.contact]
+    formid = "runtJlH"
+    headline = "Get in touch"
+    buttonText = "Send"
+    resetText = "Reset"
+    
+    # 'warning' defines error messages for invalid inputs
+    [params.footer.contact.name]
+    text = "Name *"
+    warning = "What is your name or nickname I should know?"
+
+    [params.footer.contact.email]
+    text = "Email *"
+    warning = "Tell me your email please :)"
+
+    [params.footer.contact.message]
+    text = "Message *"
+    warning = "What do you want to tell me?"
+    
+    # Copyright
+    [params.footer.copyright]
+    name = "安田俊樹"

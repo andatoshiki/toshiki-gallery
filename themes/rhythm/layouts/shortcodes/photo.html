@@ -1,0 +1,12 @@
+<!--
+	Rhythm | a 安田俊樹 open sourced photography HUGO theme for gallery showcasing
+	ported by Anda Toshiki | https://github.com/andatoshiki/rhythm
+	originally by html5up.net | @ajlkn
+  free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<article class="thumb">
+	<a href="{{ .Get "full" }}" class="image"><img src="{{ .Get "thumb" }}" alt="{{ .Get "alt" }}" /></a>
+	<h2>{{ .Get "phototitle" }}</h2>
+	<p>{{ .Get "description" | markdownify }}</p>
+</article>

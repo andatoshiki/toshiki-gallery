@@ -1,0 +1,17 @@
+name = "rhythm"
+license = "CCA 3.0 Unported"
+licenselink = "//github.com/aerohub/phugo/LICENSE.md"
+description = "Image gallery/Photoblog Theme for Hugo."
+homepage = "//github.com/aerohub/phugo"
+tags = ["image gallery", "photoblog", "shortcode"]
+features = ["albums", "contact form", "breadcrumbs", "GA"]
+min_version = 0.18
+
+[author]
+  name = "Anda Toshiki"
+  homepage = "[https://www.toshiki.top], [https://github.com/andatoshiki]"
+
+# If porting an existing theme
+[original]
+  name = "Multiverse"
+  homepage = "https://html5up.net/multiverse"
