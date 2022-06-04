@@ -53,7 +53,7 @@ theme = "rhythm"
 
     [[params.footer.social.links]]
     label = "telegram"
-    url="https://t.me/andatoshiki"
+    url="https://t.me/andatoshiki/"
     icon = "fa-plane"
 
     [[params.footer.social.links]]
