@@ -1,4 +1,4 @@
-baseURL = "https://gallery.toshiki.top"
+baseURL = "https://gallery.toshiki.top/"
 languageCode = "en-us"
 title = "俊樹の相冊"
 publishDir="public"
