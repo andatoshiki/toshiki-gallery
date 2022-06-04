@@ -1,17 +1,17 @@
-baseURL = "https://examplesite.com"
+baseURL = "https://gallery.toshiki.top"
 languageCode = "en-us"
 title = "俊樹の相冊"
 publishDir="public"
 
 theme = "rhythm"
-googleAnalytics = "UA-XXXXXXX-Y"
+# googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
 
     # Meta
-    description = "Phugo - Photo Gallery on Hugo"
+    description = "安田俊樹's own web album/gallery"
     author = "安田俊樹"
-    keywords = "phugo, hugo, photogallery, photoblog, hugo theme"
+    keywords = "安田俊樹, hugo, photogallery, photoblog, gallery, album"
     
     # Headerbar links
     # Do not put here too many links,
