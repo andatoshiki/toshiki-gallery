@@ -1,4 +1,4 @@
-baseURL = "https://gallery.toshiki.top/"
+baseURL = "https://gallery.toshiki.dev/"
 languageCode = "en-us"
 title = "俊樹の相冊"
 publishDir="public"
@@ -26,7 +26,7 @@ theme = "rhythm"
     
     [params.footer.paragraph]
     headline = "俊樹のAlbum"
-    text = "The idea of this web album could be traced back into 2019 when the first time I first steped into the door of the conceptual idea of a static \"HUGO\" blog, in which it's a static blog CMS builder hostable on GitHub & deployable on Vercel, completely free, then I wondered if a blog is possible why not a web album for image showcasing? After this harsg 3 years of finding, ultimately a theme named \"phugo\" came across my eye sight on GitHub, but it didn't perform well as I expected to be, with some slight modification by myself a new theme called **rythm** is ultimately open sourced out on GitHub for my personal gallery/album usages. This gallery mostly contains my self collected anime illustrations, life photos and much more... Happy viewing :), good day. <br />Tech stack: **Aliyun cloud OSS+Picgo+GitHub pages+Vercel** (OSS located in HongKong for bumping viewing speed for mainland viewers also stabalize speed outer mainland.)"
+    text = "As the time back in 2019, I encountered the concept of a static \"HUGO\" site genreator and considered the possibility of creating a web album for image showcasing. Sooner, I discovered a GitHub theme named \"phugo\". This theme, however, did not meet my requirements, so I modified it and created a new theme named \"rythm\", which I open sourced on GitHub for my own personal gallery/album. This gallery contains my self-collected anime illustrations, life photos, and more. The tech stacks I'm using to serve over this gallery are with **CloudFlare R2 for image hosting in addition with edge CDN caching in global nodes + Vercel as serverless deployment serving + GitHub as codebase serving + PicGo as image uploader.**"
     
     [params.footer.social]
     headline = "Follow me"
